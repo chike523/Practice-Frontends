@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(30,30,40);;
+  align-content: center;
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+  border-radius: 10px;
+  width: 350px;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.082);
+  text-align: center;
+}
+
+H1 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  font-size: 40px;
+  color: white;
+}
+
+.name {
+  margin-block: 20px;
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+  border: 2px solid;
+  border-color: blueviolet;
+  background-color: rgba(0, 0, 0, 0);
+
+}
+
+.address {
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+  border: 2px solid;
+  border-color: blueviolet;
+  background-color: rgba(0, 0, 0, 0);
+
+}
+
+.email {
+  margin-block: 20px;
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+  border: 2px solid;
+  border-color: blueviolet;
+  background-color: rgba(0, 0, 0, 0);
+
+}
+
+.message {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 250px;
+  border-radius: 5px;
+  border: 2px solid;
+  line-height: 200%;
+  resize: vertical;
+  border-color: blueviolet;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.submit {
+  width: 100px;
+  margin-block: 10px;
+  border-radius: 5px;
+  border: 2px solid;
+  line-height: 200%;
+  resize: vertical;
+  text-align: center;
+  color: white;
+  border-color: blueviolet;
+  background-color: blueviolet;
+}
+
+.submit:hover {
+  color: rgb(223, 223, 223);
+  border-color: blueviolet;
+  background-color: rgba(0, 0, 0, 0);
+}
